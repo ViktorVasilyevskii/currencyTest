@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CurrencyTrackingTest</string>
+
+    <string name="button_all_currency">Популярное</string>
+    <string name="button_favorite">Избранное</string>
+    <string name="button_sort">Сортировка</string>
+
+    <string name="text_sort">Сортировка</string>
+    <string name="text_sort_alphabet">по Алфавиту</string>
+    <string name="text_sort_value">по Значению</string>
+    <string name="text_sort_ascending">по возрастанию</string>
+    <string name="text_sort_descending">по убыванию</string>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@+id/all_currency">
+
+    <keep_state_fragment
+        android:id="@+id/navigation_all_currency"
+        android:name="com.vasilyevskii.currencytrackingtest.fragments.FragmentMain"
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/action_navigation_all_currency_to_navigation_sort2"
+            app:destination="@id/navigation_sort" />
+    </keep_state_fragment>
+
+    <keep_state_fragment
+        android:id="@+id/navigation_sort"
+        android:name="com.vasilyevskii.currencytrackingtest.fragments.FragmentSort"
+        tools:layout="@layout/fragment_sort">
+        <action
+            android:id="@+id/action_navigation_sort_to_navigation_all_currency"
+            app:destination="@id/navigation_all_currency" />
+    </keep_state_fragment>
+
+
+</navigation>

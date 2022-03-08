@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/all_currency"
+        android:title="@string/button_all_currency" />
+
+    <item
+        android:id="@+id/favorite"
+        android:title="@string/button_favorite" />
+
+</menu>
